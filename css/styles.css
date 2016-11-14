@@ -1,0 +1,123 @@
+body {
+  margin: 0px;
+}
+
+.heading {
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  margin: 0px;
+  width: 100%;
+  font-weight: lighter;
+}
+
+.menu {
+  position: absolute;
+  top: 55px;
+  right: 50px;
+}
+
+span {
+  padding-left: 20px;
+}
+
+.headers {
+  width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  letter-spacing: 2px;
+  /*padding: 0 200px 0 200px;*/
+}
+
+h1 {
+  /*width: 1150px;*/
+  /*font-weight: lighter;*/
+  font-size: 138px;
+  margin-top: 0px;
+  margin-bottom: 90px;
+}
+
+h2 {
+  padding-bottom: 20px;
+  border-bottom: 2px solid white;
+  text-align: center;
+  /*width: 1150px;*/
+  /*font-weight: lighter;*/
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  color: lightgray;
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  background-color: #FF8A80;
+  width: 200px;
+  height: 50px;
+  font-size: 15px;
+  color: white;
+  font-weight: lighter;
+  border: 0;
+  border-radius: 3px;
+  display: block;
+  margin: auto;
+}
+
+p {
+  text-align: center;
+  color: gray;
+  line-height: 25px;
+}
+
+.content {
+  position: relative;
+  display: block;
+  height: 600px;
+}
+
+
+.content .group {
+  text-align: center;
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.group div {
+  margin: 0px 100px 40px 100px;
+  width: 300px;
+  float: left;
+}
+
+.group div img {
+  width: 100px;
+}
+
+#logo {
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 80px;
+}
+
+#thankful {
+  font-size: 25px;
+  position: absolute;
+  top: 45px;
+  left: 135px;
+}
+
+#ps {
+  margin-top: 40px;
+  color: white;
+  font-size: 25px;
+  font-weight: lighter;
+  font-family: 'Bilbo Swash Caps', cursive;}
